@@ -1,0 +1,109 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-03T04:42:30.196Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4358329200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sauceDemoTests.step_defs.Hooks.setUps()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login With Valid Credentials",
+        "description": "",
+        "id": "login-sougedemo-web-page;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sauceDemoTests.step_defs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2180372700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "go to web page",
+            "match": {
+              "location": "com.sauceDemoTests.step_defs.LoginStepDefs.go_to_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2532056900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters user name \"standard_user\" and password \"secret_sauce\" and clicks login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.sauceDemoTests.step_defs.LoginStepDefs.theUserEntersUserNameAndPasswordAndClicksLoginButton(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 237999500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify that the user access the product page \"Products\" successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Products\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.sauceDemoTests.step_defs.ProductPageStepDefs.verifyThatTheUserAccessTheProductPageSuccessfully(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@shopping"
+          },
+          {
+            "name": "@a"
+          }
+        ]
+      }
+    ],
+    "name": "Login SougeDemo Web Page",
+    "description": "",
+    "id": "login-sougedemo-web-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
